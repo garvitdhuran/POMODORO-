@@ -13,10 +13,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    gap:40px;
-    background: url("spaceshiiii.webp")
+    gap:30px;
+    background: #111 url("spaceshiiii.webp")
     no-repeat;
     background-size:cover;
+    color:white;
     
 }
 
@@ -24,15 +25,20 @@ body{
     position: fixed; 
     top:20px;
 
-    right:20px;
+    left:50%;
+    transform:translateX(-50%);
+
+
+
+
     color:white ;
-    font-size:1rem;
-    font-weight:600;
+    font-size:3rem;
+    font-weight:bold;
     background:black;
 
-    padding:6px 12px;
-    border-radius:5px;
-    backdrop-filter: blur(10px);
+    padding:10px 25px;
+    border:1px solid #444;
+
 
 }
 
@@ -44,15 +50,18 @@ body{
 
    gap:10px;
 
-   background: white;
+   background:#1a1a1a;
+
 
    /* border:5px solid tomato; */
+   border :1px solid #444;
 
-   padding:30px ;
 
-   border-radius: 50%;
+   padding:30px 50px;
 
-   color:black;
+
+
+   color:white ;
 
 }
 
@@ -60,13 +69,13 @@ body{
 
 
 .pomodoro h3 {
-    font-size:1 rem ;
+    font-size: 1rem ;
 
     font-weight:700;
 
-    color:tomato;
+    /* color:tomato;
     text-transform:uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
 
  
 }
@@ -75,7 +84,7 @@ body{
 
 
 .pomodoro h1 {
-    font-size:4.5 rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 
@@ -91,18 +100,19 @@ body{
     padding:10px 20px;
     font-size: 1rem;
     font-weight: 600;
-    border:none;
-    border-radius:5px;
+
+    border:1px solid #555;
     cursor:pointer;
-    background:white;
-    color:black;
+    background:#333;
+    color:white;
 
 
 }
 
 
+
 .pomodoro-buttons button:hover { 
-    background:lightgray;
+    background:#555;
 
 }
 /* 
@@ -135,7 +145,7 @@ body{
     position:fixed;
     bottom:20px;
     right:20px;
-    color:aliceblue;
+    color:#999;
     
 }
 
