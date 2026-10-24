@@ -37,6 +37,9 @@ const pomoText = document.getElementById("pomo-label");
 
 const pomoShow = document.getElementById("pomo-display");
 
+const music = document.getElementById("bg-music");
+const musicBtn = document.getElementById("music-btn");
+
 
 const showTime = () => {
     let d = new Date();
@@ -163,6 +166,54 @@ const pomoReset = () => {
     pomoShow.innerHTML=formatPomo(pomosec);
 }; 
 
+
+
+// music bitchessss ill change this shiii for some phonk maybe and remember to add your spotify when u learn to code this much 
+
+
+
+
+const toggleMusic = () => {
+    if(music.paused) {
+        music.play();
+        musicBtn.innerHTML = "pause music";
+
+    } else {
+        music.pause();
+        musicBtn.innerHTML = "play music";
+    }
+};
+
+
+
+const firstClick = () => {
+    if(music.paused) {
+        music.play();
+        musicBtn.innerHTML = "pause music"
+    }
+};
+
+const startMusic = () => {
+    music.volume = 0.4;
+    music.play().then(() => {
+        musicBtn.innerHTML = "pause music";
+    }).catch(() => {
+        document.addEventListener("click", firstClick, { once: true });
+    });
+};
+
+
+// const startMusic = () => {
+//     music.volume = 0.4 ;
+//     music.play().then(() => {
+//         musicBtn.innerHTML = "pause music";
+// +    }).catch(() => {
+
+// +        document.addEventListener("click", firstClick, { once: true });
+// +    });
+
+// };
+
 document.addEventListener("DOMContentLoaded", () => {
     showTime();
     setInterval(showTime, 1000);
@@ -176,6 +227,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("pomo-start-btn").onclick = pomoStart;
     document.getElementById("pomo-pause-btn").onclick = pomoPause;
     document.getElementById("pomo-reset-btn").onclick = pomoReset;
+
+
+
+    musicBtn.onclick = toggleMusic;
+
 
 
 })
