@@ -1,28 +1,26 @@
-Digital Clock / Stopwatch 
+COSMIC POMODOROO
 
-Okay so heyyy guysss,
-i made this pomodoro tracker for myself cause i genuinly needed one and why not make one yourself rather than using some on the internet. I started this project by making a digital clock but then got carried away making the pomodoro for myself. 
-I made the digital clock using the js setInterval and then i thought lets make something better of it, It took a lot of learning and efforts to make this so i hope u like it :)
+This is a focus app/pomodoroo app i made in JavaScipt for myself.
+I originally started by making a Digital clock using js and then decided to turn it into something i could really use so i made this pomodoroo.
 
-What all i used and where :
-Html for the basic structure of it.
-Css for the styling (am not good at it sorryyyy!!)
-Js for the main logic like i used setInterval and clearInterval and some other properties as well to make the clock work.. Also used Js to run the pomodoro,stopwatch and the music behind 
+✨ Features
 
+ 1. Live digital clock
+ 2. Pomodoro timer with 25-minute work sessions and 5-minute breaks
+ 3. Stopwatch with start, stop, and reset controls
+ 4. Background music to make focus sessions better
+ 5. Space-themed background
 
-Tech stack :
-Html
-Css
-Javascirpt
+ ✨ Preview 
+ <img src="![preview](<Screenshot 2026-10-24 at 11.12.30 AM.png>)">
 
+ ✨ Tech Stack 
 
-Preview:"![alt text](<Screenshot 2026-10-24 at 11.12.30 AM.png>)"
-
-
-
-made this while learning js, still figuring things out but its working now so  !!!
-
-
+ ## 🛠️ Tech Stack
+- **HTML** — Basic structure of the webpage.
+- **CSS** — Styling, layout, and space-themed background.
+- **JavaScript** — Clock, Pomodoro timer, stopwatch, and music controls.
+- **JavaScript Functions** — Used `setInterval()`, `clearInterval()`, and DOM manipulation to manage timers and update the UI.
 
 
-
+I hope u like it :) 
