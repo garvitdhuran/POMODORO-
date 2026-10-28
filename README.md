@@ -11,9 +11,9 @@ I originally started by making a Digital clock using js and then decided to turn
  4. Background music to make focus sessions better
  5. Space-themed background
 
- ✨ Preview 
-![Cosmic Pomodoro Preview](<./Screenshot 2026-10-24 at 11.12.30 AM.png>)
-
+✨ Preview 
+![Cosmic Pomodoro Preview](./preview.png)
+    
 
  ✨ Tech Stack 
 - **HTML** — Basic structure of the webpage.
