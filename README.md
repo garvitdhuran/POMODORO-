@@ -12,8 +12,8 @@ I originally started by making a Digital clock using js and then decided to turn
  5. Space-themed background
 
  ✨ Preview 
- ![Cosmic Pomodoro Preview](./Screenshot 2026-10-24 at 11.12.30 AM.png)
- <!-- <img src="![preview](<Screenshot 2026-10-24 at 11.12.30 AM.png>)"> -->
+ ![Cosmic Pomodoro Preview](./Screenshot%202026-10-24%20at%2011.12.30%20AM.png)
+
 
  ✨ Tech Stack 
 
